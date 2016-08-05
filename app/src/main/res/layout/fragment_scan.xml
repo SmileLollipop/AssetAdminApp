@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/scanFrag"
+    tools:context="com.tzq.assetadminapp.activity.ScanFragment"
+    android:paddingBottom="100dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="50dp"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text="发送读标签命令"
+        android:id="@+id/scan"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        />
+
+    <Button
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text="发送停止读标签命令"
+        android:id="@+id/stop"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="176dp"
+        android:id="@+id/result"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:gravity="center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="查看详情"
+            android:id="@+id/operate"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:layout_marginRight="50dp"
+            android:visibility="invisible"/>
+
+
+        <Button
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:id="@+id/cancel"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:visibility="invisible"/>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

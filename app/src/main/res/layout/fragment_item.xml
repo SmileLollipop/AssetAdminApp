@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/asstID"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_weight="0.02" />
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.98"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.5"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/assetName"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="0.55" />
+            <TextView
+                android:id="@+id/assetModle"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="0.45" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

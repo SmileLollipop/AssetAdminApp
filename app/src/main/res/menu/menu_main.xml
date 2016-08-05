@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+    <item
+        android:id="@+id/toolbar_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="资产信息"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/toolbar_btlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="连接RFID蓝牙设备"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/toolbar_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="自动资产管理"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/toolbar_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="自动资产盘点"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        app:showAsAction="never"/>
+
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--app:showAsAction="never" />-->
+</menu>
